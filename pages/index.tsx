@@ -54,9 +54,9 @@ export default function Home() {
                 className="flex w-full flex-col max-w-screen-sm mb-4"
                 onSubmit={shortenLink}
               >
-                <label htmlFor="url" className="text-2xl">
+                {/* <label htmlFor="url" className="text-2xl">
                   Url:
-                </label>
+                </label> */}
                 <div className="flex">
                   <Input
                     type="url"
@@ -77,7 +77,7 @@ export default function Home() {
                 exit={{ opacity: 0 }}
                 className="flex w-full flex-col max-w-screen-sm mb-4"
               >
-                <label className="text-2xl">Shortened url:</label>
+                <label className="text-2xl">Shortened URL:</label>
                 <div className="flex">
                   <CopyToClipboard
                     text={createUrl(slug)}
