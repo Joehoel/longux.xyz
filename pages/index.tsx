@@ -38,6 +38,7 @@ export default function Home() {
     reset();
     setSlug(null);
   };
+
   return (
     <Layout>
       <main className="flex flex-1 flex-col pt-2 dark:bg-gray-800 dark:text-gray-200">
